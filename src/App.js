@@ -239,7 +239,7 @@ export default function App() {
           <div className="button-container">
             {/* Challenge 3 */}
             {gameStarted && gamePlayButtons}
-            {startButton}
+            {!gameStarted && startButton}
           </div>
         </form>
       )}
